@@ -6,6 +6,8 @@
 
 GoLearning es una App gratuita para **[Android](https://github.com/Johan-Palacios/GoLearning)** que esta orientada para que niños y jovenes puedan aprender los conceptos básicos de computación que existen actualmente.
 
+<img src="https://user-images.githubusercontent.com/77251405/158495559-8df60d97-c052-48e0-9712-1fb6137bda98.png" alt="drawing" width="300"/>
+<img src="https://user-images.githubusercontent.com/77251405/158496636-b27ba9fe-741a-4b80-88b1-d9558279503a.png" alt="drawing" width="300"/>
 ### Requisitos mínimos
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.5-purple?longCache=true&style=popout-square)](https://kotlinlang.org)
 [![Android Studio](https://img.shields.io/badge/Android_Studio-4.2-blue.svg?longCache=true&style=popout-square)](https://developer.android.com/studio)
