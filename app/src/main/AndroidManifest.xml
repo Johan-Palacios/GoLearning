@@ -10,16 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GoLearning">
         <activity
-            android:name=".dashboard"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".splash"
+            android:theme="@style/SplashTheme"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
         </activity>
 
         <meta-data

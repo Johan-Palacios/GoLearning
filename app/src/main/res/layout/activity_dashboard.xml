@@ -1,16 +1,268 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".dashboard">
+    tools:context=".Dashboard">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="219dp"
-        tools:layout_editor_absoluteY="287dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="@color/primary">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/montserrat_alternates_semibold"
+            android:gravity="center"
+            android:text="GoLearning"
+            android:textColor="@color/white"
+            android:textSize="30dp"></TextView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/book"></ImageView>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="140dp"
+        android:background="@color/background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/hardwareicon"></ImageView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="150dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="center"
+                    android:text="Componentes básicos de la PC"
+                    android:textColor="@color/cardview_dark_background"></TextView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="center"
+                    android:text="En esta sección aprenderás los conocimientos básicos sobre los componentes de la PC"
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/softwareicon"></ImageView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="150dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="center"
+                    android:text="Software"
+                    android:textColor="@color/cardview_dark_background"></TextView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="center"
+                    android:text="En este bloque aprenderás los principios del software y su importancia en la computación actual"
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/interneticon"></ImageView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="150dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="center"
+                    android:text="Internet"
+                    android:textColor="@color/cardview_dark_background"></TextView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="center"
+                    android:text="En este bloque reconocerás los principios y protocolos que rigen a internet"
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/hackicon"></ImageView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="150dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="center"
+                    android:text="Ciber-Seguridad"
+                    android:textColor="@color/cardview_dark_background"></TextView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="center"
+                    android:text="El internet está lleno de peligros por tal razón en esta sección aprenderás los principios para estar seguro en la red"
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/redesicon">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="150dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="center"
+                    android:text="Redes"
+                    android:textColor="@color/cardview_dark_background">
+                </TextView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="center"
+                    android:text="El internet parece ser un mundo mágico donde todo funciona con un clic, pero detrás de eso se esconden un montón de protocolos y principios que conocerás brevemente en este bloque"
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp">
+                </TextView>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/officeicon">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="150dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="center"
+                    android:text="Ofimática"
+                    android:textColor="@color/cardview_dark_background">
+                </TextView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="center"
+                    android:text="El uso de los programas de Office son una de las habilidades más requeridas actualmente, por tal razón acá aprenderás brevemente un poco de ellos."
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp">
+                </TextView>
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
