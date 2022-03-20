@@ -212,14 +212,14 @@
 
                 <TextView
                     android:layout_width="200dp"
-                    android:layout_height="50dp"
+                    android:layout_height="60dp"
                     android:layout_marginLeft="125dp"
                     android:layout_marginTop="50dp"
                     android:fontFamily="@font/montserrat_alternates_semibold"
                     android:gravity="center"
                     android:text="El internet parece ser un mundo mágico donde todo funciona con un clic, pero detrás de eso se esconden un montón de protocolos y principios que conocerás brevemente en este bloque"
                     android:textColor="@color/primary_text"
-                    android:textSize="10dp">
+                    android:textSize="9dp">
                 </TextView>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
