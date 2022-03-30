@@ -42,6 +42,7 @@
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/basicPC"
                 android:layout_width="350dp"
                 android:layout_height="125dp"
                 android:layout_gravity="center"
@@ -78,6 +79,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/software"
                 android:layout_width="350dp"
                 android:layout_height="125dp"
                 android:layout_gravity="center"

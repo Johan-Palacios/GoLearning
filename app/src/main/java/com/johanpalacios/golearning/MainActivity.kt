@@ -12,8 +12,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         handler = Handler()
         handler.postDelayed({
-            var Intent = Intent(this,Dashboard::class.java)
-            startActivity(Intent)
+            val intent = Intent(this,Dashboard::class.java)
+            startActivity(intent)
             finish()
         },1500)
 }

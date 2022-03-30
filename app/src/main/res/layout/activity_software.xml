@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent"
+    tools:context=".content.software">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/primary"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/softwareiconscreen"
+            android:layout_height="170dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:fontFamily="@font/montserrat_alternates_bold"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="Software"
+            android:textColor="@color/white"
+            android:textSize="25dp"></TextView>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="110dp"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="108dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/software"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/softwarewhat"></ImageView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:text="¿Qué es?"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="30dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="center"
+                    android:text="El Software son los programas de aplicación y los sistemas operativos que permiten que la computadora pueda desempeñar tareas inteligentes, dirigiendo a los componentes físicos o hardware con instrucciones y datos a través de diferentes tipos de programas."
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/montserrat_alternates_bold"
+                android:text="Algunos software Son:"
+                android:textColor="@color/primary_text"
+                android:textSize="20dp"></TextView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/linuxYT"
+                android:layout_width="350dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/linux"></ImageView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:text="Software de Sistema Operativo"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="Un sistema operativo es un conjunto de programas que, al ejecutarse de forma simultánea, permiten el funcionamiento de diferentes elementos, como la memoria, almacenamiento, disco duro, etc. Incluso, permiten modificar recursos extra, como un teclado, una impresora, entre otras extensiones."
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:id="@+id/softwareDeApp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/word"></ImageView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:text="Software de Aplicación"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="El software de aplicación es el término que define cualquier programa que sea instalado en un ordenador. Esto con el fin de realizar las tareas que un usuario necesite, es decir, se adapta a las necesidades específicas.
+Un software de aplicación puede abarcar en distintas tareas. Por ejemplo, un editor de texto, una hoja de cálculo, reproductor multimedia y otros más.
+El rango de utilidad de un software de aplicación es bastante amplio. Estas están destinadas a resolver problemas particulares e incluso servir como medios de entretenimiento según el tipo de programa que se utilice.
+"
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:id="@+id/softwareDeProgramacion"
+                android:layout_height="230dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/androidstudioicon"></ImageView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:text="Software de Programación"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="El software de programación es un tipo de software bastante peculiar que destaca por ser el usado para crear otro software, es decir, son programas y herramientas a los que se le da uso para crear otros programas y herramientas.
+\n\nLa mayoría del software de programación vienen equipado con todo lo que un programador puede necesitar para llevar a cabo sus tareas. Entre las utilidades que se integran se puede encontrar por ejemplo un procesador de texto, un depurador, distintos tipos de compiladores, entre otros.
+"
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"></Space>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
