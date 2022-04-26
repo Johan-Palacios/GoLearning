@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:background="@color/background"
+android:layout_height="match_parent"
+tools:context=".content.cibersecuritytopics.ciberwar">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/primary"
+    tools:ignore="MissingConstraints">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ciberwar"
+        android:layout_height="170dp">
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Guerra \nCibenética"
+        android:textColor="@color/white"
+        android:textSize="25dp"></TextView>
+</RelativeLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="110dp"
+    tools:layout_editor_absoluteX="63dp"
+    tools:layout_editor_absoluteY="108dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/whatitis"></ImageView>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_alternates_semibold"
+                android:text="¿Qué es?"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="30dp"></TextView>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/montserrat_alternates_semibold"
+                android:gravity="center"
+                android:text="La guerra cibernética es un conflicto basado en Internet que implica la penetración de sistemas de computación y redes de otros países. Estos atacantes tienen los recursos y conocimientos para lanzar ataques masivos basados en Internet contra otros países para causar daños o para interrumpir los servicios, como apagar toda la red de energía."
+                android:textColor="@color/primary_text"
+                android:textSize="10dp"></TextView>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/montserrat_alternates_bold"
+            android:text="Ejemplos:"
+            android:textColor="@color/primary_text"
+            android:textSize="20dp"></TextView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_alternates_bold"
+                android:text="Invadir infraestructura de otro país"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20dp"></TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_alternates_bold"
+                android:text="Robar sectores de defensa"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20dp"></TextView>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_alternates_bold"
+                android:text="Recopilar información"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20dp"></TextView>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_alternates_bold"
+                android:text="Espionaje industrial, militar"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20dp"></TextView>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_alternates_bold"
+                android:text="Dañar infraestructura de otros países"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20dp"></TextView>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_alternates_bold"
+                android:text="Interrumpir el acceso a internet"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20dp"></TextView>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_alternates_bold"
+                android:text="Afectar la vida de los ciudadanos"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20dp"></TextView>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_alternates_bold"
+                android:text="Perder la confianza de los ciudadanos de los gobiernos por no protegerlos"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20dp"></TextView>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_alternates_bold"
+                android:text="Desestabilizar una nación"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20dp"></TextView>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_alternates_bold"
+                android:text="Interrumpir comercio"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20dp"></TextView>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_alternates_bold"
+                android:text="Afectar de fe de los ciudadanos en su gobierno"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20dp"></TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></Space>
+    </LinearLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

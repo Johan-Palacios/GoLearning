@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:background="@color/background"
+android:layout_height="match_parent"
+tools:context=".content.cibersecuritytopics.data">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/primary"
+    tools:ignore="MissingConstraints">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/hardwareicon"
+        android:layout_height="170dp">
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Los Datos"
+        android:textColor="@color/white"
+        android:textSize="25dp"></TextView>
+</RelativeLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="110dp"
+    tools:layout_editor_absoluteX="63dp"
+    tools:layout_editor_absoluteY="108dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/software"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/softwarewhat"></ImageView>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_alternates_semibold"
+                android:text="¿Qué es?"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="30dp"></TextView>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/montserrat_alternates_semibold"
+                android:gravity="center"
+                android:text="Los datos son todas aquellas cosas que nos identifican, en línea nuestros datos están expuestos a ser robados, algunos de estos son:\n -Datos médicos\n\t -Datos Personales\n\t -Historiales Financieros\n\n Los CiberDelincuentes desearan tus datos por lo cuál tu debes impedir darlos con facilidad a extraños."
+                android:textColor="@color/primary_text"
+                android:textSize="10dp"></TextView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/linuxYT"
+            android:layout_width="350dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/whatitis"></ImageView>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_alternates_bold"
+                android:text="¿Qué quieren de mí?"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/montserrat_alternates_semibold"
+                android:gravity="left"
+                android:text="Esencialmente, los atacantes quieren tu dinero, ya que  ellos pueden acceder a sus cuentas en línea y engañar para hacer depósitos falsos y robar dinero. Así mismo una de las cosas que los ciberdelincuentes desean es tu IDENTIDAD, debido a que  es muy valiosa, ellos pueden robar tus seguros médicos y usar esos beneficios que otorgan para ellos, así mismo pueden aprovecharse de las declaraciones de impuestos para hacer una falsa y recolectar el dinero de reembolso, pueden acumular deudas y abrir cuentas a tu nombre y provocarte daos considerables a nivel crediticio"
+                android:textColor="@color/primary_text"
+                android:textSize="10dp"></TextView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:id="@+id/softwareDeApp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/book"></ImageView>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_alternates_bold"
+                android:text="Triada CID"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/montserrat_alternates_semibold"
+                android:gravity="left"
+                android:text="CID (Confidencialidad, Integridad y Disponibilidad)\n\n
+- La confidencialidad garantiza la privacidad de los datos mediante la restricción del acceso con el cifrado de la autenticación.\n\n
+- La integridad garantiza que la información sea precisa y confiable.\n\n
+- La disponibilidad garantiza que la información esté disponible a las personas autorizadas."
+                android:textColor="@color/primary_text"
+                android:textSize="10dp"></TextView>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:id="@+id/softwareDeProgramacion"
+            android:layout_height="240dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/safe"></ImageView>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_alternates_bold"
+                android:text="HASH"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/montserrat_alternates_semibold"
+                android:gravity="left"
+                android:text="Los hash en sí es un algoritmo matemático que transforma en un valor de longitud fija una cantidad de datos, algunos de los más comunes son MD5, SHA-1, SHA-256 y SHA-512\n\nEJEMPLO:
+Desde el valor de hash, los datos originales no se pueden recuperar directamente. Por ejemplo, si olvidó su contraseña, su contraseña no se puede recuperar desde el valor de hash. La contraseña se debe restablecer.\n\n
+Para comprobar si los datos fueron cambiados o si permanecen igual, puede usarse un programa de hash"
+                android:textColor="@color/primary_text"
+                android:textSize="10dp"></TextView>
+        </androidx.cardview.widget.CardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"></Space>
+    </LinearLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

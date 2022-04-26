@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:background="@color/background"
+android:layout_height="match_parent"
+tools:context=".content.cibersecuritytopics.PanoramicCiber">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/primary"
+    tools:ignore="MissingConstraints">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/hackicontwo"
+        android:layout_height="170dp">
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Panorama de la\nCiberSeguridad"
+        android:textColor="@color/white"
+        android:textSize="25dp"/>
+</RelativeLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="110dp"
+    tools:layout_editor_absoluteX="63dp"
+    tools:layout_editor_absoluteY="108dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/whatitis">
+            </ImageView>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_alternates_semibold"
+                android:text="Ataques Combinados"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/montserrat_alternates_semibold"
+                android:gravity="center"
+                android:text="Son ataques que usan diversas técnicas para comprometer un objetivo. Mediante el uso de varias técnicas de ataque simultáneas, los atacantes tienen malware que combina gusanos, troyanos, spyware, registradores de pulsaciones, spam y esquemas de suplantación de identidad."
+                android:textColor="@color/primary_text"
+                android:textSize="10dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/what">
+            </ImageView>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_alternates_bold"
+                android:text="Reducción de Impacto"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/montserrat_alternates_semibold"
+                android:gravity="left"
+                android:text="Esta es el conjunto de prácticas para minimizar el daño en momento de un ataque cibernético"
+                android:textColor="@color/primary_text"
+                android:textSize="10dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="320dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/interneticon">
+            </ImageView>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_alternates_bold"
+                android:text="Recomendaciones para reducir el impacto de un CiberAtaque"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="120dp"
+                android:fontFamily="@font/montserrat_alternates_semibold"
+                android:text="\t -Comunicar el problema: Informar internamente a los empleados del problema y llamarlos a la acción\n\n\t-Ser sincero y responsable en caso de que la empresa tenga la culpa\n\n\t-Proporcionar detalles: Explicar por qué ocurrió la situación y qué se vio afectado\n\n\t-Comprender qué causó y facilitó la violación de seguridad\n\n\t-Asegurarse de que todos los sistemas estén limpios, que no se hayan instalado puertas traseras y que no haya nada más comprometido\n\n\t-Capacitar a los empleados, los partners y los clientes acerca de cómo prevenir las violaciones futuras."
+                android:gravity="left"
+                android:textColor="@color/primary_text"
+                android:textSize="10dp"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></Space>
+    </LinearLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

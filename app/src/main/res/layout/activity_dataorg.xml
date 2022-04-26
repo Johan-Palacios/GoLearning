@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent"
+    tools:context=".content.cibersecuritytopics.dataorg">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/primary"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/bussiness"
+            android:layout_height="170dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:fontFamily="@font/montserrat_alternates_bold"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="Datos de\norganización"
+            android:textColor="@color/white"
+            android:textSize="25dp"></TextView>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="110dp"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="108dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="280dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/softwarewhat"></ImageView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:text="¿Qué es?"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="30dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="center"
+                    android:text="En las organizaciones se trata de proteger ante cualquier ciberataque, aunque eso en sí es imposible, ya que hackers o grupo de hackers pueden siempre encontrar brechas en el sistema de seguridad y acceder a la red, pero como prioridad los equipos de seguridad deben responder al ataque para minimizar los daños, perdida de datos, inactividad, y perdida de ingresos.\n\n
+El costo monetario de un ataque es mucho mayor que solo reemplazar los dispositivos perdidos o robados, invertir en la seguridad existente y fortalecer la seguridad física del edificio. La empresa será responsable de comunicarse con todos los clientes afectados por la infracción y es posible que deba prepararse para un proceso jurídico"
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"></Space>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -18,16 +18,16 @@
             android:layout_marginTop="30dp"
             android:fontFamily="@font/montserrat_alternates_semibold"
             android:gravity="center"
-            android:text="GoLearning"
+            android:text="@string/app_name"
             android:textColor="@color/white"
-            android:textSize="30dp"></TextView>
+            android:textSize="30sp" />
 
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="30dp"
-            android:src="@drawable/book"></ImageView>
+            android:src="@drawable/book" />
     </RelativeLayout>
 
     <ScrollView
@@ -53,29 +53,30 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/hardwareicon"></ImageView>
+                    android:src="@drawable/hardwareicon" />
 
                 <TextView
                     android:layout_width="150dp"
                     android:layout_height="50dp"
-                    android:layout_marginLeft="150dp"
+                    android:layout_marginStart="150dp"
                     android:fontFamily="@font/montserrat_alternates_semibold"
                     android:gravity="center"
-                    android:text="Componentes básicos de la PC"
-                    android:textColor="@color/cardview_dark_background"></TextView>
+                    android:text="@string/componentes_nde_la_pc"
+                    android:textColor="@color/cardview_dark_background" />
 
                 <TextView
                     android:layout_width="200dp"
                     android:layout_height="50dp"
-                    android:layout_marginLeft="125dp"
+                    android:layout_marginStart="125dp"
                     android:layout_marginTop="50dp"
                     android:fontFamily="@font/montserrat_alternates_semibold"
                     android:gravity="center"
-                    android:text="En esta sección aprenderás los conocimientos básicos sobre los componentes de la PC"
+                    android:text="@string/dash_definition_componetPC"
                     android:textColor="@color/primary_text"
-                    android:textSize="10dp"></TextView>
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -90,31 +91,107 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/softwareicon"></ImageView>
+                    android:src="@drawable/softwareicon" />
 
                 <TextView
                     android:layout_width="150dp"
                     android:layout_height="50dp"
-                    android:layout_marginLeft="150dp"
+                    android:layout_marginStart="150dp"
                     android:fontFamily="@font/montserrat_alternates_semibold"
                     android:gravity="center"
-                    android:text="Software"
-                    android:textColor="@color/cardview_dark_background"></TextView>
+                    android:text="@string/software_title"
+                    android:textColor="@color/cardview_dark_background" />
 
                 <TextView
                     android:layout_width="200dp"
                     android:layout_height="50dp"
-                    android:layout_marginLeft="125dp"
+                    android:layout_marginStart="125dp"
                     android:layout_marginTop="50dp"
                     android:fontFamily="@font/montserrat_alternates_semibold"
                     android:gravity="center"
-                    android:text="En este bloque aprenderás los principios del software y su importancia en la computación actual"
+                    android:text="@string/dash_definition_software"
                     android:textColor="@color/primary_text"
-                    android:textSize="10dp"></TextView>
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp" />
             </androidx.cardview.widget.CardView>
 
+            <androidx.cardview.widget.CardView
+                android:id="@+id/web"
+                android:layout_width="350dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/interneticon" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="150dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="center"
+                    android:text="@string/dash_web_title"
+                    android:textColor="@color/cardview_dark_background" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="125dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="center"
+                    android:text="@string/dash_definition_web"
+                    android:textColor="@color/primary_text"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cibersecurity"
+                android:layout_width="350dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/hackicon" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="150dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="center"
+                    android:text="@string/dash_ciber_title"
+                    android:textColor="@color/cardview_dark_background" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="125dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="center"
+                    android:text="@string/dash_ciber_definition"
+                    android:textColor="@color/primary_text"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp" />
+            </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_width="350dp"
                 android:layout_height="125dp"
@@ -126,78 +203,7 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/interneticon"></ImageView>
-
-                <TextView
-                    android:layout_width="150dp"
-                    android:layout_height="50dp"
-                    android:layout_marginLeft="150dp"
-                    android:fontFamily="@font/montserrat_alternates_semibold"
-                    android:gravity="center"
-                    android:text="Internet"
-                    android:textColor="@color/cardview_dark_background"></TextView>
-
-                <TextView
-                    android:layout_width="200dp"
-                    android:layout_height="50dp"
-                    android:layout_marginLeft="125dp"
-                    android:layout_marginTop="50dp"
-                    android:fontFamily="@font/montserrat_alternates_semibold"
-                    android:gravity="center"
-                    android:text="En este bloque reconocerás los principios y protocolos que rigen a internet"
-                    android:textColor="@color/primary_text"
-                    android:textSize="10dp"></TextView>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="350dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="15dp"
-                app:cardBackgroundColor="@color/cardview_light_background"
-                app:cardCornerRadius="20dp">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/hackicon"></ImageView>
-
-                <TextView
-                    android:layout_width="150dp"
-                    android:layout_height="50dp"
-                    android:layout_marginLeft="150dp"
-                    android:fontFamily="@font/montserrat_alternates_semibold"
-                    android:gravity="center"
-                    android:text="Ciber-Seguridad"
-                    android:textColor="@color/cardview_dark_background"></TextView>
-
-                <TextView
-                    android:layout_width="200dp"
-                    android:layout_height="50dp"
-                    android:layout_marginLeft="125dp"
-                    android:layout_marginTop="50dp"
-                    android:fontFamily="@font/montserrat_alternates_semibold"
-                    android:gravity="center"
-                    android:text="El internet está lleno de peligros por tal razón en esta sección aprenderás los principios para estar seguro en la red"
-                    android:textColor="@color/primary_text"
-                    android:textSize="10dp"></TextView>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="350dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="15dp"
-                app:cardBackgroundColor="@color/cardview_light_background"
-                app:cardCornerRadius="20dp">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
                     android:layout_marginTop="10dp"
                     android:src="@drawable/redesicon">
                 </ImageView>
@@ -205,26 +211,28 @@
                 <TextView
                     android:layout_width="150dp"
                     android:layout_height="50dp"
-                    android:layout_marginLeft="150dp"
+                    android:layout_marginStart="150dp"
                     android:fontFamily="@font/montserrat_alternates_semibold"
                     android:gravity="center"
-                    android:text="Redes"
+                    android:text="@string/network_title"
                     android:textColor="@color/cardview_dark_background">
                 </TextView>
 
                 <TextView
                     android:layout_width="200dp"
                     android:layout_height="60dp"
-                    android:layout_marginLeft="125dp"
+                    android:layout_marginStart="125dp"
                     android:layout_marginTop="50dp"
                     android:fontFamily="@font/montserrat_alternates_semibold"
                     android:gravity="center"
-                    android:text="El internet parece ser un mundo mágico donde todo funciona con un clic, pero detrás de eso se esconden un montón de protocolos y principios que conocerás brevemente en este bloque"
+                    android:text="@string/dash_network_definition"
                     android:textColor="@color/primary_text"
-                    android:textSize="9dp">
+                    android:textSize="9sp"
+                    tools:ignore="SmallSp">
                 </TextView>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
+                android:id="@+id/ofimatica"
                 android:layout_width="350dp"
                 android:layout_height="125dp"
                 android:layout_gravity="center"
@@ -235,7 +243,7 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
                     android:layout_marginTop="10dp"
                     android:src="@drawable/officeicon">
                 </ImageView>
@@ -243,23 +251,24 @@
                 <TextView
                     android:layout_width="150dp"
                     android:layout_height="50dp"
-                    android:layout_marginLeft="150dp"
+                    android:layout_marginStart="150dp"
                     android:fontFamily="@font/montserrat_alternates_semibold"
                     android:gravity="center"
-                    android:text="Ofimática"
+                    android:text="@string/ofimatic_title"
                     android:textColor="@color/cardview_dark_background">
                 </TextView>
 
                 <TextView
                     android:layout_width="200dp"
                     android:layout_height="50dp"
-                    android:layout_marginLeft="125dp"
+                    android:layout_marginStart="125dp"
                     android:layout_marginTop="50dp"
                     android:fontFamily="@font/montserrat_alternates_semibold"
                     android:gravity="center"
-                    android:text="El uso de los programas de Office son una de las habilidades más requeridas actualmente, por tal razón acá aprenderás brevemente un poco de ellos."
+                    android:text="@string/dash_office_definition"
                     android:textColor="@color/primary_text"
-                    android:textSize="10dp">
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp">
                 </TextView>
             </androidx.cardview.widget.CardView>
             <Space

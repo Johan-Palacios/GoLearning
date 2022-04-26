@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".content.ofimatica">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/primary"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/officeicon"
+            android:layout_height="100dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:fontFamily="@font/montserrat_alternates_bold"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="Ofimática"
+            android:textColor="@color/white"
+            android:textSize="30dp"></TextView>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="135dp"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="108dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/software"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/whatitis"></ImageView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:text="¿Qué es?"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="30dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="center"
+                    android:text="Es un conjunto de herramientas de informática que se utilizan para optimizar, mejorar y automatizar los procedimientos que se realizan en una oficina. Permiten idear, crear, almacenar y manipular información, pero deben estar las computadoras sí o sí conectadas a una red de Internet"
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="260dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/what"></ImageView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:foregroundGravity="center"
+                    android:text="¿Para qué sirve?"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="Nos ayuda a automatizar y optimizar las tareas habituales en una oficina. Además de que, son las herramientas o medios ofimáticos nos permiten idear, elaborar, manipular y transmitir la información.\n\n
+Por ejemplo, la comunicación interna o externa nos permite compartir de manera veloz y eficiente, los informes que hoy podemos realizar con Excel de manera semiautomática o automática, en cuestión de segundos. En nuestro ejemplo, vemos que podríamos estar utilizando unas herramientas que tienen mucho que ver con el software (programas, redes, etc.) y el hardware (computadora, teléfonos y equipos), lo cual son efectos naturales que rodean a lo que es la ofimática en sí.
+"
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/montserrat_alternates_bold"
+                android:text="Ejemplos:"
+                android:textColor="@color/primary_text"
+                android:textSize="20dp"></TextView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/office365"
+                android:layout_width="350dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/word"></ImageView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:text="Microsoft Office 365"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="Diseñado para ayudarle a crear documentos de calidad profesional. Con las mejores herramientas de formato de documento, Word le ayuda a organizar y escribir los documentos de forma más eficiente. "
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:id="@+id/googleDrive"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/drive"></ImageView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:text="Google Drive"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="Permite almacenar, crear, modificar, compartir y acceder a documentos, archivos y carpetas de todo tipo en un único lugar: la Nube. Tendrás acceso a los archivos vía Web, desde tu dispositivo móvil o desde tu equipo de cómputo de escritorio o portátil."
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/appleCloud"
+                android:layout_width="350dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/icloudlogo"></ImageView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:text="Apple iCloud"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="Es el servicio de almacenamiento en la nube de Apple, que conecta todos los archivos en tus dispositivos entre sí. Solo está disponible para usuarios de Apple."
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/dropbox"
+                android:layout_width="350dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/dropbox"></ImageView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:text="Dropbox"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="Almacena todo tu trabajo. Puedes almacenar y compartir archivos, colaborar en proyectos y concretar tus mejores ideas, ya sea que trabajes solo o con amigos y clientes."
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/libreOffice"
+                android:layout_width="350dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/libreoffice"></ImageView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:text="Libre Office"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="Es un conjunto de aplicaciones informáticas de productividad. Los documentos se guardan por defecto en formato Microsoft Office (.doc, .xls, .ppt, etc.) "
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"></Space>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

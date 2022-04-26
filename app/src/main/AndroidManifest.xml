@@ -10,6 +10,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GoLearning">
         <activity
+            android:name=".content.web"
+            android:exported="false" />
+        <activity
+            android:name=".content.componetsPC"
+            android:exported="false" />
+        <activity
+            android:name=".content.cibersecuritytopics.privOnline"
+            android:exported="false" />
+        <activity
+            android:name=".content.cibersecuritytopics.protectData"
+            android:exported="false" />
+        <activity
+            android:name=".content.cibersecuritytopics.PanoramicCiber"
+            android:exported="false" />
+        <activity
+            android:name=".content.cibersecuritytopics.analizeciber"
+            android:exported="false" />
+        <activity
+            android:name=".content.cibersecuritytopics.ciberwar"
+            android:exported="false" />
+        <activity
+            android:name=".content.cibersecuritytopics.profesionalciber"
+            android:exported="false" />
+        <activity
+            android:name=".content.cibersecuritytopics.dataorg"
+            android:exported="false" />
+        <activity
+            android:name=".content.cibersecuritytopics.data"
+            android:exported="false" />
+        <activity
+            android:name=".content.cibersecurity"
+            android:exported="false" />
+        <activity
+            android:name=".content.ofimatica"
+            android:exported="false" />
+        <activity
             android:name=".content.software"
             android:exported="false" />
         <activity

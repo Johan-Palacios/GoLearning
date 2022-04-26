@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/background"
+tools:context=".content.cibersecurity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="@color/primary"
+    tools:ignore="MissingConstraints">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/hackicon"
+        android:layout_height="100dp">
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="CiberSeguridad"
+        android:textColor="@color/white"
+        android:textSize="30dp"></TextView>
+</RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="135dp"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="183dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/software"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/whatitis"></ImageView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:text="¿Qué es?"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="30dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="center"
+                    android:text="La ciberseguridad es la práctica de proteger sistemas, redes y programas de ataques digitales. Por lo general, estos ciberataques apuntan a acceder, modificar o destruir la información confidencial; Extorsionar a los usuarios o los usuarios o interrumpir la continuidad del negocio."
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="260dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/what"></ImageView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:foregroundGravity="center"
+                    android:text="¿Para qué sirve?"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="Algunos de los principales objetivos son:\n\n \t - Proteger los datos de las personas o empresas\n \t -Proteger los dispositivos\n \t -Proteger la integridad de los datos\n\nA nivel corporativo esto puede variar, es responsabilidad de los empleados, como de los clientes proteger la información\n\n
+A nivel del estado, es la seguridad de la nación, seguridad, y el bienestar de los ciudadanos involucrados "
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/montserrat_alternates_bold"
+                android:text="Temas"
+                android:textColor="@color/primary_text"
+                android:textSize="20dp"></TextView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/data"
+                android:layout_width="350dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/hardwareicon"></ImageView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:text="Los Datos"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="Los datos tienen un rol fundamental en la ciberseguridad y es importante conocer cómo protegerlos"
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/dataorg"
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/bussiness"></ImageView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:text="Datos de Organización"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="En este tema se te mostrará cómo las empresas protegen sus datos y de qué forma se defienden de un ciberataque"
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/profesionalciber"
+                android:layout_width="350dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/hackicontwo"></ImageView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:text="Atacantes y profesionales de la ciberseguridad"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="90dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="En este tema se te mostrarán quienes estan involucrados en los ciberataques"
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ciberwar"
+                android:layout_width="350dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ciberwar"></ImageView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:text="Guerra Cibernética"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="En esta parte te mostraremos que es una guerra Cibernética"
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/anlzciber"
+                android:layout_width="350dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/whatitis"></ImageView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:text="Análisis de un CiberAtaque"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="En este tema conocerás de qué manera se analizan los CiberAtaques"
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/pano_Ciber"
+                android:layout_width="350dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/hackicon"></ImageView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:text="Panorama de la CiberSeguridad"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="En este tema conocerás el panorama actual de la CiberSeguridad"
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/protect_data"
+                android:layout_width="350dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/safe"></ImageView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:text="Proteger tus datos"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="En esta sección aprenderás a cómo proteger tus datos."
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/priv_online"
+                android:layout_width="350dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/interneticon"></ImageView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:text="Proteger tus datos en Línea"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="En esta sección aprenderás a cómo proteger tus datos en línea."
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"></Space>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

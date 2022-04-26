@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent"
+    tools:context=".content.cibersecuritytopics.profesionalciber">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/primary"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/hackicontwo"
+            android:layout_height="170dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:fontFamily="@font/montserrat_alternates_bold"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="Atacantes y \nprofesionales \nde la ciberseguridad"
+            android:textColor="@color/white"
+            android:textSize="20dp"></TextView>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="110dp"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="108dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/montserrat_alternates_bold"
+                android:text="Tipos de Hackers:"
+                android:textColor="@color/primary_text"
+                android:textSize="20dp"></TextView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:text="Aficionados"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="Este tipo son atacantes con poca o ninguna habilidad que, a menudo, utilizan las herramientas existentes o las instrucciones que se encuentran en Internet para llevar a cabo ataques. Algunos de ellos solo son curiosos, mientras que otros intentan demostrar sus habilidades y causar daños"
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:text="Sombrero Blanco"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="Estos son hackers que emplean sus habilidades de programación para fines bueno éticos y legales, estos ingresan a redes o los sistemas informáticos para descubrir las debilidades para poder mejorar la seguridad de estos sistemas. Estas intrusiones se realizan con el permiso previo y los resultados se informan al propietario."
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:text="Sombrero Negro"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="Al contrario de los de sobrero blanco, estos aprovechan las vulnerabilidades para obtener ganancias, ya sea financieras o personales, estos son poco éticos que violan la seguridad de una computadora y una red entera y comprometen información de gran impacto"
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:text="Sombrero Gris"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="Este es un tipo de Hacker que no parece estar en ninguno de los dos lados, estos cometen delitos haciendo cosas poco éticos, pero no lo hacen para un beneficio personal ni para causar daños, estos suelen divulgar una vulnerabilidad públicamente, y también la divulga a la organización después de haberla puesto en peligro, pero esto le permite a la organización solucionar el problema"
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/montserrat_alternates_bold"
+                android:text="Tipos de Amenazas:"
+                android:textColor="@color/primary_text"
+                android:textSize="20dp"></TextView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:text="Amenazas Externas"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="Las amenazas externas de aficionados o atacantes expertos pueden atacar las vulnerabilidades en la red o los dispositivos informáticos, o usar la ingeniería social para obtener acceso."
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_alternates_bold"
+                    android:text="Amenazas Internas"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/montserrat_alternates_semibold"
+                    android:gravity="left"
+                    android:text="Las amenazas internas tienen el potencial de generar mayor daño que las amenazas externas, porque los usuarios internos tienen acceso directo al edificio y a sus dispositivos de infraestructura. Los empleados también tienen conocimiento de la red corporativa, sus recursos y sus datos confidenciales, así como diferentes niveles de usuario o privilegios administrativos."
+                    android:textColor="@color/primary_text"
+                    android:textSize="10dp"></TextView>
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"></Space>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
