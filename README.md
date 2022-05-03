@@ -2,10 +2,10 @@
 
 GoLearning es una App gratuita para **[Android](https://www.android.com/intl/es_es/)** que esta orientada para que niños y jovenes puedan aprender los conceptos básicos de computación que existen actualmente.
 ## Tabla de contenidos
-1. [Requisitos Instalación de GoLearning](###requisitos-de-instalación)
-2. [Instalar GoLearning](###instalación)
-3. [Imagenes de la Aplicación](###imagenes-de-la-aplicación)
-4. [Información para Develper](###información-para-develpers)
+1. [Requisitos Instalación de GoLearning](#requisitos-de-instalación)
+2. [Instalar GoLearning](#instalación)
+3. [Imagenes de la Aplicación](#imagenes-de-la-aplicación)
+4. [Información para Develper](#información-para-develpers)
 ### Requisitos de Instalación
 Para instalar GoLearning es importante cumplir con:
   - Sistema Operativo Android
