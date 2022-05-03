@@ -15,6 +15,8 @@ class Dashboard : AppCompatActivity() {
         val goCiber = findViewById<CardView>(R.id.cibersecurity)
         val goBasicPC = findViewById<CardView>(R.id.basicPC)
         val goWeb = findViewById<CardView>(R.id.web)
+        val goNetwork = findViewById<CardView>(R.id.network)
+        val goOperativeSystem = findViewById<CardView>(R.id.sistemasOperativos)
         goBasicPC.setOnClickListener {
             val intent = Intent(this, componetsPC::class.java)
             startActivity(intent)
@@ -33,6 +35,14 @@ class Dashboard : AppCompatActivity() {
         }
         goCiber.setOnClickListener {
             val intent = Intent(this, cibersecurity::class.java)
+            startActivity(intent)
+        }
+        goNetwork.setOnClickListener {
+            val intent = Intent(this, networks::class.java)
+            startActivity(intent)
+        }
+        goOperativeSystem.setOnClickListener {
+            val intent = Intent(this, operativeSystem::class.java)
             startActivity(intent)
         }
     }

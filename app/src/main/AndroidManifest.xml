@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GoLearning">
         <activity
+            android:name=".content.operativeSystemGL.installOperativeSystem"
+            android:exported="false" />
+        <activity
+            android:name=".content.operativeSystemGL.freeSoftware"
+            android:exported="false" />
+        <activity
+            android:name=".content.operativeSystem"
+            android:exported="false" />
+        <activity
+            android:name=".content.network.createBasicNetwork"
+            android:exported="false" />
+        <activity
+            android:name=".content.network.components_network"
+            android:exported="false" />
+        <activity
+            android:name=".content.networks"
+            android:exported="false" />
+        <activity
+            android:name=".content.webtopic.historyweb"
+            android:exported="false" />
+        <activity
             android:name=".content.web"
             android:exported="false" />
         <activity

@@ -152,12 +152,12 @@ Por ejemplo, la comunicación interna o externa nos permite compartir de manera 
                 <TextView
                     android:layout_width="200dp"
                     android:layout_height="55dp"
-                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="30dp"
                     android:layout_marginTop="10dp"
                     android:fontFamily="@font/montserrat_alternates_bold"
-                    android:text="Microsoft Office 365"
+                    android:text="@string/microsoft_office_365"
                     android:textColor="@color/cardview_dark_background"
-                    android:textSize="20dp"></TextView>
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="300dp"
@@ -166,9 +166,64 @@ Por ejemplo, la comunicación interna o externa nos permite compartir de manera 
                     android:layout_marginTop="70dp"
                     android:fontFamily="@font/montserrat_alternates_semibold"
                     android:gravity="left"
-                    android:text="Diseñado para ayudarle a crear documentos de calidad profesional. Con las mejores herramientas de formato de documento, Word le ayuda a organizar y escribir los documentos de forma más eficiente. "
+                    android:text="@string/ofice365_definition"
                     android:textColor="@color/primary_text"
-                    android:textSize="10dp"></TextView>
+                    android:textSize="10sp"
+                    tools:ignore="RtlHardcoded,SmallSp" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/word_video"
+                android:layout_width="120dp"
+                android:layout_marginStart="10dp"
+                android:layout_height="150dp"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp"
+                tools:ignore="RtlHardcoded">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/word"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/power_video"
+                android:layout_width="120dp"
+                android:layout_marginStart="5dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-150dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp"
+                tools:ignore="RtlHardcoded">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/powerpoint"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/excel_video"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="-150dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="20dp"
+                tools:ignore="RtlHardcoded">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/excel"/>
             </androidx.cardview.widget.CardView>
 
 

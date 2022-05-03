@@ -17,8 +17,20 @@ class ofimatica : AppCompatActivity() {
         val iCloud = findViewById<CardView>(R.id.appleCloud)
         val dropbox = findViewById<CardView>(R.id.dropbox)
         val libreOffice = findViewById<CardView>(R.id.libreOffice)
+        val word = findViewById<CardView>(R.id.word_video)
+        val powerPoint = findViewById<CardView>(R.id.power_video)
+        val exel = findViewById<CardView>(R.id.excel_video)
         microsoftOffice.setOnClickListener(View.OnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, convertUrl("https://youtu.be/bsspDMRvgz0")))
+        })
+        word.setOnClickListener(View.OnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, convertUrl("https://youtu.be/n0yn3TZ1lSQ")))
+        })
+        powerPoint.setOnClickListener(View.OnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, convertUrl("https://youtu.be/ra0hKJv8zbw")))
+        })
+        exel.setOnClickListener(View.OnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, convertUrl("https://youtu.be/v_R5SaMTlug")))
         })
         googleDrive.setOnClickListener(View.OnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, convertUrl("https://youtu.be/qE8yX0ovkq8")))
