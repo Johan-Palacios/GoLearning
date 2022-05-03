@@ -1,11 +1,11 @@
-[![GitHub Followers](https://img.shields.io/github/stars/Johan-Palacios/GoLearning?label=Repositorio%20público%20App%20&style=social)](https://github.com/mouredev/Twitimer-iOS)
+[![GitHub Followers](https://img.shields.io/github/stars/Johan-Palacios/GoLearning?label=Repositorio%20público%20App%20&style=social)](https://github.com/Johan-Palacios/GoLearning)
 
 GoLearning es una App gratuita para **[Android](https://www.android.com/intl/es_es/)** que esta orientada para que niños y jovenes puedan aprender los conceptos básicos de computación que existen actualmente.
 ## Tabla de contenidos
-1. [Requisitos Instalación de GoLearning](###Requisitos de Instalación)
-2. [Instalar GoLearning](###Instalación)
-3. [Imagenes de la Aplicación](###Imagenes de la Aplicación)
-4. [Información para Develper](###Información para Develper)
+1. [Requisitos Instalación de GoLearning](###requisitos-de-instalación)
+2. [Instalar GoLearning](###instalación)
+3. [Imagenes de la Aplicación](###imagenes-de-la-aplicación)
+4. [Información para Develper](###información-para-develpers)
 ### Requisitos de Instalación
 Para instalar GoLearning es importante cumplir con:
   - Sistema Operativo Android
@@ -41,4 +41,3 @@ Para instalar GoLearning, unicamente debes ir a [los lanzamientos](https://githu
 ### En mi perfil de GitHub tienes más información sobre mis Desarrollos
 
 [![Web](https://img.shields.io/badge/GitHub-Johan-14a1f0?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/Johan-Palacios)
-
