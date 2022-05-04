@@ -29,17 +29,3 @@ Para instalar GoLearning, unicamente debes ir a [los lanzamientos](https://githu
 [![Android](https://img.shields.io/badge/Android-6-green.svg?longCache=true&style=popout-square)](https://www.android.com)
 
 ###  Este proyecto fue elaborado para la EORM "Las Ruinas de Zaculeu".
-
-## Información del desarrollador
-
-<p align="center">
-    <img alt="Johan Logo" src="https://user-images.githubusercontent.com/77251405/120911904-37bcd800-c648-11eb-9358-e62e4e16ac1c.png" height="160" />
-  </a>
-  <h1 align="center">Johan Palacios</h1>
-  <p align="center">
-  <p align="center">GoLearning, La aplicación para el aprendizaje de conceptos básicos de computación
-  </p>
-
-### En mi perfil de GitHub tienes más información sobre mis Desarrollos
-
-[![Web](https://img.shields.io/badge/GitHub-Johan-14a1f0?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/Johan-Palacios)
