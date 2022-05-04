@@ -7,14 +7,14 @@ assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**Tu prupuesta para una nueva característica en la aplicación es una solución a un problema? Porfavor describela**
+Brinda una descripción clara y concisa del problema. Ej. Siempre estoy frustrado cuando [...]
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**Describe la solución que te gustaría ver**
+Brinda una descripción sobre lo que esperas.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**Escribe las alternativas a la solución**
+Escribe las alternativas para la solución del problema.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**Información adicional**
+Puedes añadir capturas de bocetos o cualquier información relevante para incluir la nueva característica a la aplicación.
