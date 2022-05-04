@@ -7,32 +7,28 @@ assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Describe el problema**
+Describe de la forma más clara posible el problema encontrado en la aplicación.
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Reproducir el bug**
+Describe los pasos para repetir el bug.
+1.
+2.
+3.
+4.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Comportamiento esperado**
+Brinda una descripción clara y concisa de lo que se espera que pasen.
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**Capturas**
+Si aplica, brindar las capturas o grabaciones del error
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+**Información del Sistema Operativo**
+ - Versión de Android: [e.j. 5]
+ - Versión de la aplicación [e.j. v0.5]
+ - Marca del Dispositivo
+ - Versión de UI (Varia en cada fabricante)
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
 
-**Additional context**
-Add any other context about the problem here.
+**Información adicional**
+Escribe en esta sección cualquier información que sea relevante para solucionar el problema.
