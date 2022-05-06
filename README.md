@@ -15,7 +15,7 @@ Para instalar GoLearning es importante cumplir con:
   
 ### Instalación
 
-Para instalar GoLearning, unicamente debes ir a [los lanzamientos](https://github.com/Johan-Palacios/GoLearning/releases "los lanzamientos") y buscar en los "Assets" el archivo "GoLearning[número_de_versión].apk" para descargarlo, para más información ir a [Wiki de GoLearning](https://github.com/Johan-Palacios/GoLearning/wiki/Inicio "Wiki de GoLearning").
+Para instalar GoLearning, unicamente debes ir a [los lanzamientos](https://github.com/Johan-Palacios/GoLearning/releases "los lanzamientos") y buscar en los "Assets" el archivo "GoLearning[número_de_versión].apk" para descargarlo, para más información ir a [Wiki de GoLearning](https://github.com/Johan-Palacios/GoLearning/wiki "Wiki de GoLearning").
 
 ### Imagenes de la Aplicación
 
